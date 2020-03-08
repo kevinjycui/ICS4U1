@@ -112,7 +112,7 @@ class Towers(object):  # hanoi towers class that stores three tower stacks
 while True:
     try:
         n = int(input('How many discs do you want?'))  # prompt for input
-    except:
+    except ValueError:
         print('Invalid value inputted')  # warn invalid input
     else:
         break
